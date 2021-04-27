@@ -1,0 +1,15 @@
+{
+	"name": "react-typescript-template",
+	"version": "1.0.0",
+	"description": "A starter template for React with Typescript using Webpack 5",
+	"scripts": {},
+	"keywords": [
+		"React",
+		"TypeScript",
+		"Webpack 5",
+		"Starter Template",
+		"Boilerplate"
+	],
+	"author": "Atharva Marathe",
+	"license": "MIT"
+}
