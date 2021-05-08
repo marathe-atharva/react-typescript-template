@@ -1,5 +1,7 @@
-import './style.scss'
+import '@/style.scss'
 
-export const App = () => {
+const App = () => {
 	return <h1 className="app">React Typescript Template!</h1>
 }
+
+export default App

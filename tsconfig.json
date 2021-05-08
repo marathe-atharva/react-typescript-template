@@ -22,7 +22,10 @@
 		"allowSyntheticDefaultImports": true,
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
-		"paths": { "@src/*": ["src/*"] }
+		"paths": {
+			"@/*": ["src/*"],
+			"@components/*": ["src/components/*"]
+		}
 	},
 	"exclude": ["node_modules", "coverage"],
 	"include": ["src/**/*"]

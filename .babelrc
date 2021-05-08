@@ -15,6 +15,16 @@
 			{
 				"regenerator": true
 			}
+		],
+		[
+			"module-resolver",
+			{
+				"root": ["."],
+				"alias": {
+					"@": "./src/",
+					"@components": "./src/components/"
+				}
+			}
 		]
 	]
 }
