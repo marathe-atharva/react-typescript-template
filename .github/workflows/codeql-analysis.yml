@@ -5,22 +5,21 @@ on:
     branches: [ master ]
     paths:
       - src
-    paths-ignore:
-      - ./node_modules
-      - '**/*.test.js'
-      - '**/*.test.ts'
-      - '**/*.md'
-      - '**/*.txt'
+      - '!./node_modules'
+      - '!**/*.test.js'
+      - '!**/*.test.ts'
+      - '!**/*.md'
+      - '!**/*.txt'
   pull_request:
     branches: [ master ]
     paths:
       - src
-    paths-ignore:
-      - ./node_modules
-      - '**/*.test.js'
-      - '**/*.test.ts'
-      - '**/*.md'
-      - '**/*.txt'
+      - '!./node_modules'
+      - '!**/*.test.js'
+      - '!**/*.test.ts'
+      - '!**/*.md'
+      - '!**/*.txt'
+      
   schedule:
     - cron:  '0 0'
 
