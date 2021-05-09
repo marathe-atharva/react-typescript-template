@@ -22,7 +22,10 @@
 				"root": ["."],
 				"alias": {
 					"@": "./src/",
-					"@components": "./src/components/"
+					"@components": "./src/components/",
+					"@interfaces": "./src/interfaces/",
+					"@styles": "./src/styles/",
+					"@layouts": "./src/layouts/"
 				}
 			}
 		]

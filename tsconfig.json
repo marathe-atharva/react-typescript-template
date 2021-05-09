@@ -24,7 +24,10 @@
 		"emitDecoratorMetadata": true,
 		"paths": {
 			"@/*": ["src/*"],
-			"@components/*": ["src/components/*"]
+			"@components/*": ["src/components/*"],
+			"@interfaces/*": ["src/interfaces/*"],
+			"@styles/*": ["src/styles/*"],
+			"@layouts/*": ["src/layouts/*"]
 		}
 	},
 	"exclude": ["node_modules", "coverage"],
